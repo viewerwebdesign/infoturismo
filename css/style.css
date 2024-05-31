@@ -1,0 +1,48 @@
+body{
+    background-color:  rgb(65, 18, 18);
+    color: rgb(250, 247, 247);
+
+}
+
+
+
+h1{
+    padding-top: 2%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.navbar{
+    background-color: red;
+    
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    text-transform:uppercase;
+    padding-top: 7%;
+    margin: 0;
+}
+
+.carousel{
+    margin-top: 11%;
+}
+
+.transportepublico{
+    margin-top: 15%;
+}

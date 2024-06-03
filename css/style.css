@@ -1,0 +1,157 @@
+body{
+    background-color:  rgb(252, 247, 247);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+
+
+h1, h2, h3, h4, h5, h6{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-bottom: 3%;
+    padding: 0%;
+}
+
+
+h1 a{
+    
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-top: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 900;
+    color: rgb(63, 31, 31);
+    
+}
+
+h3{
+    color:rgb(63, 31, 31);
+}
+
+
+p{
+    color:rgb(63, 31, 31);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+.nosotros{
+    background-image: url(/images/Condor1-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+}
+
+.navbar{
+    background-color: rgb(63, 31, 31);
+    
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    text-transform:uppercase;
+    padding-top: 7%;
+    margin: 0;
+}
+
+.carousel{
+    margin-top: 12%;
+
+}
+
+.transportepublico, .gastronomia, .atractivo{
+    margin-top: 15%;
+}
+/*CARDS*/
+
+.card{
+    margin-bottom: 5vh;
+    box-shadow: black 2px 2px 15px ;
+    background-color: rgba(41, 12, 22, 0.747);
+    color: white;
+}
+
+.card img{
+    width: 28.5vw;
+    height: 42vh;
+}
+
+.card-body p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.card-body a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.card-body a:hover{
+    color: rgb(187, 204, 35);
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    h1{
+        margin-bottom: 3%;
+    }
+
+    .card img{
+        width: 94vw;
+        height: 40vh;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px)  {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 2100px) {
+
+}

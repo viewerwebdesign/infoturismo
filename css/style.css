@@ -61,7 +61,7 @@ p{
     background-image: url(/images/Condor1-1024x683.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:local;
+    background-attachment:fixed;
 }
 
 .navbar{

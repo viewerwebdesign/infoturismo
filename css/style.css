@@ -1,14 +1,10 @@
 body{
-    background-color:  rgb(65, 18, 18);
+    background-color:  rgb(252, 247, 247);
     color: rgb(250, 247, 247);
 
 }
 
-
-
-h1{
-    padding-top: 2%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 
 
@@ -19,6 +15,22 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1{
+    
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+      
+    padding-top: 2%;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 900;
+}
+
+
 p{
     display: flex;
     justify-content: center;
@@ -27,7 +39,7 @@ p{
 }
 
 .navbar{
-    background-color: red;
+    background-color: rgb(63, 31, 31);
     
 }
 
@@ -41,8 +53,46 @@ p{
 
 .carousel{
     margin-top: 11%;
+
 }
 
-.transportepublico{
+.transportepublico, .gastronomia, .atractivo{
     margin-top: 15%;
+}
+
+.card{
+    box-shadow: black 2px 2px 15px ;
+}
+
+.card{
+    background-color: rgba(41, 12, 22, 0.747);
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px)  {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 2100px) {
+
 }
